@@ -86,6 +86,7 @@ class ResourceLeak {
 			// EMB-ISSUE: CodeIssueNames.RESOURCE_LEAK
 			PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("out.txt", true)));
 			out.println("the text");
+			System.out.println("Added code issues");
 		} catch (IOException e) {
 		}
 		
