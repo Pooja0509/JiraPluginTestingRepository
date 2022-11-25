@@ -15,7 +15,7 @@ public class Mainclass {
 		}
 		String midChar = (length % 2 != 0) ? (str.substring(0, mid) + str.substring(mid + 1, str.length()))
 				: (str.substring(0, mid - 1) + str.substring(mid + 1, str.length()));
-				System.out.println("Midde character is : "+midChar);  
+				System.out.println("Midde character is : "+midChar);   
 				System.out.println("Midde character is : "+midChar);
 
 	}
