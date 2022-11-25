@@ -20,7 +20,7 @@ class ResourceLeak {
 			
 			
 			// EMB-ISSUE: CodeIssueNames.RESOURCE_LEAK
-			out.close();  //close() is in try clause
+			  //close() is in try clause
 
 			// EMB-ISSUE: CodeIssueNames.RESOURCE_LEAK/no-detect
 			FileOutputStream in = new FileOutputStream("xanadu.txt");
