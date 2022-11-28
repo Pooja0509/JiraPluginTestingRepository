@@ -39,6 +39,12 @@ public final class Main {
         category.set(Model.Ferrari);
         String categoryName2 = category.getCategory();
         LOGGER.info(categoryName2);
+        try{
+            int a=10, b=0, c=0;
+            c=(a/b);
+        } catch(Exception e){
+        
+        }
 
         while (isSame)
             LOGGER.info(String.valueOf(isSame));
