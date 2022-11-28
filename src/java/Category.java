@@ -30,6 +30,12 @@ public class Category extends Vehicle implements NewInterface {
 
     public void bar(String m_name) {
         int m_val = 42;
+        try{
+            int a=10, b=0, c=0;
+            c=(a/b);
+        } catch(Exception e){
+        
+        }
     }
 
     public boolean getCategoryId() {
