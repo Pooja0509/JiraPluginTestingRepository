@@ -16,7 +16,8 @@ public final class Main {
         Delux$ delux$ = new Delux$(4, 120, 25);
         LOGGER.info(honda.toString());
         LOGGER.info(delux$.toString());
-
+        System.out.println(honda);
+        
         mercedes mercedes = new mercedes(5, 200, 45);
         BMW bmw = new BMW(4, 180, 50);
         int length = bmw.getLength(new String[]{"Welcome", "To", "Embold"});
