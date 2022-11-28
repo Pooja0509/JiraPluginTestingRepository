@@ -23,6 +23,7 @@ public final class Main {
         int length = bmw.getLength(new String[]{"Welcome", "To", "Embold"});
         LOGGER.info(mercedes.toString());
         LOGGER.info(bmw.toString());
+        System.out.println(bmw);
 
         Category category= new Category();
         category.setCategory("FourWheeler",1);
