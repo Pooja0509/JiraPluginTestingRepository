@@ -145,6 +145,12 @@ class ResourceLeak {
         } finally {
             closer.close();
         }
+	    try{
+            int a=10, b=0, c=0;
+            c=(a/b);
+        } catch(Exception e){
+        
+        }
     }
     public boolean contentEquals(ByteSource other) throws IOException {
         checkNotNull(other);
