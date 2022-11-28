@@ -7,7 +7,12 @@ public class MyClass implements SessionBean {
     
     @Override
     public void setSessionContext(SessionContext sessionContext) throws EJBException, RemoteException {
-
+        try{
+            int a=10, b=0, c=0;
+            c=(a/b);
+        } catch(Exception e){
+        
+        }
     }
 
     @Override
