@@ -13,6 +13,7 @@ public class Category extends Vehicle implements NewInterface {
 
 
     public String getCategory() {
+        System.out.println("get Category");
         return category;
     }
 
