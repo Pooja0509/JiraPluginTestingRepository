@@ -5,7 +5,7 @@ public class Car {
     public Car(int gear, int speed)
     {
         this.gear = gear;
-        this.speed = speed;
+        this.speed = speed; 
     }   
     public Car(){}
 
