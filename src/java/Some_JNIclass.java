@@ -58,6 +58,15 @@ public class Some_JNIclass {
             boolean flag = false;
             if (categoryid > 0)
                 flag = true;
+             System.loadLibrary("nativelib");
+         System.loadLibrary("nativelib");
+         System.loadLibrary("nativelib");
+         System.loadLibrary("nativelib");
+         System.loadLibrary("nativelib");
+         System.loadLibrary("nativelib");
+        System.loadLibrary("nativelib");
+        System.loadLibrary("nativelib");
+        System.loadLibrary("nativelib");
             return flag;
         } catch (IllegalArgumentException e) {
             throw e;
