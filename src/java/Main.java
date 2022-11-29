@@ -9,6 +9,7 @@ public final class Main {
     protected static String headline = "This is main class";
     private static final Logger LOGGER = Logger.getLogger(Main.class.getName());
     public static final int[] arr={1,2,3,4,5};
+     public static final String arr3[]=new String[3];
 
     public static void main(String[] args) {
         String welcome_msg = "WelCome";
