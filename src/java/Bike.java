@@ -22,6 +22,12 @@ public class Bike {
 
     public String toString()
     {
+        System.out.println("new code issue");
+        System.out.println("new code issue");
+        System.out.println("new code issue");
+        System.out.println("new code issue");
+        System.out.println("new code issue");
+        System.out.println("new code issue");
         return ("No of gears are " + gear + "\n"
                 + "speed of bicycle is " + speed);
     }
