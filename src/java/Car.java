@@ -7,6 +7,7 @@ public class Car {
         this.gear = gear;
         this.speed = speed; 
         this.gear = gear;
+        gear = gear;
     }     
     public Car(){}
 
