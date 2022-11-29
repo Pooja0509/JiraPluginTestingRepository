@@ -6,6 +6,7 @@ public class BMW extends Car{
     {
         super(gear, speed);
         seatHeight = startHeight;
+         this.gear = gear;
     }
 
     public void setHeight(int newValue)
