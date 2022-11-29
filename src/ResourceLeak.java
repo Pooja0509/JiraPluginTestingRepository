@@ -61,6 +61,8 @@ class ResourceLeak {
 			e.printStackTrace();
 			//Need to fix this
 			reader.close();
+		}catch () {
+			
 		} finally {
 			if (reader != null) {
 				try {
