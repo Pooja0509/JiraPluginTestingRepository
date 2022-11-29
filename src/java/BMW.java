@@ -55,5 +55,8 @@ public class BMW extends Car{
          catch (Error e) {
             throw e;
         }
+         catch (IOException e) {
+            throw e;
+        }
     }
 }
