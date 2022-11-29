@@ -18,6 +18,8 @@ public class BMW extends Car{
          System.out.println(newValue);
          System.out.println(newValue);
          System.out.println(newValue);
+          System.out.println(newValue);
+          System.out.println(newValue);
     }
     public int getLength(String[] strings) {
 
