@@ -20,6 +20,7 @@ public class Category extends Vehicle implements NewInterface {
         System.out.println("get Category");
         System.out.println("get Category");
         System.out.println("get Category");
+        System.out.println("get Category");
         return category;
     }
 
