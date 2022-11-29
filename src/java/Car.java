@@ -19,6 +19,7 @@ public class Car {
     public void speedUp(int increment)
     {
         speed += increment;
+        System.out.println("speed up");
     }
 
     public String toString()
