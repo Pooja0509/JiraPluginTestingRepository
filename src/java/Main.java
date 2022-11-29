@@ -46,6 +46,10 @@ public final class Main {
         System.out.println(bmw);
         System.out.println(bmw);
         System.out.println(bmw);
+        System.out.println(bmw);
+        System.out.println(bmw);
+        System.out.println(bmw);
+        System.out.println(bmw);
         
 
         Category category= new Category();
