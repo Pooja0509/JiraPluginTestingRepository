@@ -37,4 +37,10 @@ public class Car {
             } catch (IOException ioe) {
         }
     }
+    protected void finalize() 
+{
+
+}
+    
+  
 }
