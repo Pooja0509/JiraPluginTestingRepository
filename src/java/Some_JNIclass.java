@@ -17,4 +17,19 @@ public class Some_JNIclass {
     public void invalidCallsInMethod() throws SecurityException, NoSuchMethodException {
         System.loadLibrary("nativelib");
     }
+    
+    
+    public boolean getCategoryId() {
+        try {
+            String txtA = "Category";
+            boolean flag = false;
+            if (categoryid > 0)
+                flag = true;
+            return flag;
+        } catch (IllegalArgumentException e) {
+            throw e;
+        } catch (IllegalStateException e) {
+            throw e;
+        }
+    }
 }
