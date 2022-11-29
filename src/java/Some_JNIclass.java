@@ -8,9 +8,20 @@ public class Some_JNIclass {
     }
     public Some_JNIclass() {
         System.loadLibrary("nativelib");
+        System.loadLibrary("nativelib");
+        System.loadLibrary("nativelib");
+        System.loadLibrary("nativelib");
+        System.loadLibrary("nativelib");
+        System.loadLibrary("nativelib");
     }
 
     static {
+        System.loadLibrary("nativelib");
+        System.loadLibrary("nativelib");
+        System.loadLibrary("nativelib");
+        System.loadLibrary("nativelib");
+        System.loadLibrary("nativelib");
+        System.loadLibrary("nativelib");
         System.loadLibrary("nativelib");
     }
 
