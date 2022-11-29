@@ -10,6 +10,7 @@ public class BMW extends Car{
     public void setHeight(int newValue)
     {
         seatHeight = newValue;
+        System.out.println(newValue);
     }
     public int getLength(String[] strings) {
 
