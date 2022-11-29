@@ -49,7 +49,7 @@ public class BMW extends Car{
             return flag;
         } catch (Exception e) {
             throw e;
-        } catch (IllegalStateException e) {
+        } catch (Throwable e) {
             throw e;
         }
     }
