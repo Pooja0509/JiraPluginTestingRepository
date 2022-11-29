@@ -2,7 +2,7 @@ public class Bike {
     public int gear;
     public int speed;
 
-    public Bike(int gear, int speed)
+    public Bike(int gear, int speed) throws Exception
     {
         this.gear = gear;
         this.speed = speed;
