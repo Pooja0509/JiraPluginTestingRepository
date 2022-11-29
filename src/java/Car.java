@@ -1,6 +1,7 @@
 public class Car {
     public int gear;
     public int speed;
+    private String[] brake;
 
     public Car(int gear, int speed)
     {
@@ -8,6 +9,7 @@ public class Car {
         this.speed = speed; 
         this.gear = gear;
         gear = gear;
+        return brake;
     }     
     public Car(){}
 
