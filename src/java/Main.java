@@ -84,6 +84,7 @@ public final class Main {
         Some_JNIclass some_jnIclass=new Some_JNIclass();
         String stringValue = some_jnIclass.getstringvalue(2);
         System.out.println(stringValue);
+        System.out.println(stringValue);
     }
 
     protected void whichClass(){
