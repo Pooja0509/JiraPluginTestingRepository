@@ -16,6 +16,14 @@ public class Some_JNIclass {
 
     public void invalidCallsInMethod() throws SecurityException, NoSuchMethodException {
         System.loadLibrary("nativelib");
+         System.loadLibrary("nativelib");
+         System.loadLibrary("nativelib");
+         System.loadLibrary("nativelib");
+         System.loadLibrary("nativelib");
+         System.loadLibrary("nativelib");
+        System.loadLibrary("nativelib");
+        System.loadLibrary("nativelib");
+        System.loadLibrary("nativelib");
     }
     
     
