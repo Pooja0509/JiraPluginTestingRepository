@@ -42,6 +42,9 @@ public class Category extends Vehicle implements NewInterface {
         } catch(Exception e){
         
         }
+        catch(Exception e){
+        
+        }
     }
 
     public boolean getCategoryId() {
