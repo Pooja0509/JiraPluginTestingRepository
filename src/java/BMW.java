@@ -47,7 +47,7 @@ public class BMW extends Car{
             if (categoryid > 0)
                 flag = true;
             return flag;
-        } catch (IllegalArgumentException e) {
+        } catch (Exception e) {
             throw e;
         } catch (IllegalStateException e) {
             throw e;
