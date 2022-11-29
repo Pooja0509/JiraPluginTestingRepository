@@ -12,6 +12,8 @@ public class MyClass implements SessionBean {
             c=(a/b);
             System.out.println("Value:" + c);
              System.out.println("Value:" + c);
+            System.out.println("Value:" + c);
+            System.out.println("Value:" + c);
         } catch(Exception e){
         
         }
