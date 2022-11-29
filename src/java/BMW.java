@@ -17,9 +17,10 @@ public class BMW extends Car{
 
         int length = 0;
         if (strings == null || strings.length == 0) return 0;
-
+        
         for (String str : strings) {
             length += str.length();
+            System.out.println(str);
         }
 
         return length;
