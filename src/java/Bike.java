@@ -31,5 +31,16 @@ public class Bike {
         return ("No of gears are " + gear + "\n"
                 + "speed of bicycle is " + speed);
     }
+    
+    public void nestedIfBlock(int increment)
+    {
+        if(increment > 0){
+            if(increment > 0){
+                if(increment > 0){
+                    increment=increment/0;
+                }
+            }
+        }
+    }
 }
 
