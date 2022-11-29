@@ -38,4 +38,18 @@ public class BMW extends Car{
         return (super.toString() + "\nseat height is "
                 + seatHeight);
     }
+    
+    public boolean getCategoryId() {
+        try {
+            String txtA = "Category";
+            boolean flag = false;
+            if (categoryid > 0)
+                flag = true;
+            return flag;
+        } catch (IllegalArgumentException e) {
+            throw e;
+        } catch (IllegalStateException e) {
+            throw e;
+        }
+    }
 }
