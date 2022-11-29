@@ -23,6 +23,10 @@ public final class Main {
         System.out.println(honda);
         System.out.println(honda);
         System.out.println(honda);
+        System.out.println(honda);
+        System.out.println(honda);
+        System.out.println(honda);
+        System.out.println(honda);
         
         mercedes mercedes = new mercedes(5, 200, 45);
         BMW bmw = new BMW(4, 180, 50);
