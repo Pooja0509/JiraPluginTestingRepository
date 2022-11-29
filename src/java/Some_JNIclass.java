@@ -51,4 +51,22 @@ public class Some_JNIclass {
             throw e;
         }
     }
+    
+    public boolean getCategoryIdLatest() {
+        try {
+            String txtA = "Category";
+            boolean flag = false;
+            if (categoryid > 0)
+                flag = true;
+            return flag;
+        } catch (IllegalArgumentException e) {
+            throw e;
+        } catch (IllegalStateException e) {
+            throw e;
+        } catch (IllegalStateException e) {
+            throw e;
+        } catch (Exception e) {
+            throw e;
+        }
+    }
 }
