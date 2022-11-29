@@ -13,6 +13,7 @@ public class Car {
     {
         speed -= decrement;
         System.out.println("decrement is " + decrement);
+         System.out.println("decrement is " + decrement);
     }
 
     public void speedUp(int increment)
