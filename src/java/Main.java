@@ -40,6 +40,7 @@ public final class Main {
         LOGGER.info(mercedes.toString());
         LOGGER.info(bmw.toString());
         System.out.println(bmw);
+         System.out.println(bmw);
 
         Category category= new Category();
         category.setCategory("FourWheeler",1);
