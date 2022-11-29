@@ -9,7 +9,7 @@ public class Car {
         this.speed = speed; 
         this.gear = gear;
         gear = gear;
-      logger.info(message.toString());
+      logger.info(msg.toString());
     }     
     public Car(){}
 
