@@ -11,6 +11,7 @@ public final class Main {
     public static final int[] arr={1,2,3,4,5};
      public static final String arr3[]=new String[3];
      public static final String arr3[]=new String[3];
+    public static final String arr4[];
 
     public static void main(String[] args) {
         String welcome_msg = "WelCome";
