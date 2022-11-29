@@ -11,6 +11,7 @@ public class Bike {
     public void applyBrake(int decrement)
     {
         speed -= decrement;
+        System.out.println(decrement);
     }
 
     public void speedUp(int increment)
