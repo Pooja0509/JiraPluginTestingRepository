@@ -1,4 +1,5 @@
 public class BMW extends Car{
+    public static final String arr3[]=new String[3];
     public int seatHeight;
     public BMW(int gear, int speed,
                  int startHeight)
