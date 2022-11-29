@@ -12,6 +12,7 @@ public class Car {
     public void applyBrake(int decrement)
     {
         speed -= decrement;
+        System.out.println("decrement is " + decrement);
     }
 
     public void speedUp(int increment)
@@ -23,5 +24,10 @@ public class Car {
     {
         return ("No of gears are " + gear + "\n"
                 + "speed of bicycle is " + speed);
+    }
+    
+    public void speedUp(int increment)
+    {
+        increment = increment/0;
     }
 }
