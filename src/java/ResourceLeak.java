@@ -197,5 +197,19 @@ class ResourceLeak {
     private byte[] createBuffer() {
         return new byte[0];
     }
+	
+	public boolean getCategoryIdNew() {
+        try {
+            String txtA = "Category";
+            boolean flag = false;
+            if (categoryid > 0)
+                flag = true;
+            return flag;
+        } catch (IllegalArgumentException e) {
+            throw e;
+        } catch (IllegalStateException e) {
+            throw e;
+        }
+    }
 
 }
