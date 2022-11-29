@@ -221,5 +221,19 @@ class ResourceLeak {
             throw e;
         }
     }
+	
+	 public void processNew2() {
+
+        try {
+            // EMB-ISSUE: CodeIssueNames.RESOURCE_LEAK
+            PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("out.txt", true)));
+            out.println("the text");
+        } catch (IOException e) {
+        } catch (IOException e) {
+        } catch (IOException e) {
+        } catch (IOException e) {
+        }
+
+    }
 
 }
