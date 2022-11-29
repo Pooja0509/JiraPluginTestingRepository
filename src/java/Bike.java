@@ -16,6 +16,7 @@ public class Bike {
     public void speedUp(int increment)
     {
         speed += increment;
+        System.out.println(increment);
     }
 
     public String toString()
