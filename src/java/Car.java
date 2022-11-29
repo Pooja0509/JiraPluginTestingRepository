@@ -30,4 +30,11 @@ public class Car {
     {
         increment = increment/0;
     }
+    
+    public void process1() {
+        try {
+            FileInputStream fis = new FileInputStream("/tmp/bugger");
+            } catch (IOException ioe) {
+        }
+    }
 }
