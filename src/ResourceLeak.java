@@ -90,6 +90,8 @@ class ResourceLeak {
 			out.println("the text");
 			System.out.println("Added code issues");
 			System.out.println("Added code issues");
+			System.out.println("Added code issues");
+			System.out.println("Added code issues");
 		} catch (IOException e) {
 		}
 		
