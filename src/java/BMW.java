@@ -52,5 +52,8 @@ public class BMW extends Car{
         } catch (Throwable e) {
             throw e;
         }
+         catch (Error e) {
+            throw e;
+        }
     }
 }
